@@ -1,12 +1,12 @@
 {
   "name": "tachyons-widths",
   "version": "0.4.1",
-  "style": "widths.css",
+  "style": "tachyons-widths.css",
   "homepage": "http://mrmrs.io/tachyons-widths",
-  "description": "Performance based sass module.",
+  "description": "Performance based css module.",
   "keywords": [
     "oocss",
-    "sass",
+    "css",
     "css",
     "rwd",
     "design",
