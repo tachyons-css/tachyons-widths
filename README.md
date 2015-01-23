@@ -13,6 +13,10 @@ or download the css on github and include in your project.
 ## The Code
 ```
 
+@custom-media --breakpoint-not-small screen and (max-width: 48em);
+@custom-media --breakpoint-medium screen and (min-width: 48em) and (max-width: 64em);
+@custom-media --breakpoint-large screen and (min-width: 64em);
+
 /*
 
    WIDTHS
@@ -48,7 +52,7 @@ or download the css on github and include in your project.
 .wi-at { width: auto; }
 .wi-i {  width: inherit; }
 
-@include break(not-small) {
+@media (--breakpoint-not-small) {
   .wi1-ns {  width: 1rem; }
   .wi2-ns {  width: 2rem; }
   .wi3-ns {  width: 4rem; }
@@ -73,7 +77,7 @@ or download the css on github and include in your project.
   .wi-i-ns {  width: inherit; }
 }
 
-@include break(medium) {
+@media (--breakpoint-medium) {
   .wi1-m {      width: 1rem; }
   .wi2-m {      width: 2rem; }
   .wi3-m {      width: 4rem; }
@@ -98,7 +102,7 @@ or download the css on github and include in your project.
   .wi-i-m {     width: inherit; }
 }
 
-@include break(large) {
+@media (--breakpoint-large) {
   .wi1-l {      width: 1rem; }
   .wi2-l {      width: 2rem; }
   .wi3-l {      width: 4rem; }
@@ -122,6 +126,7 @@ or download the css on github and include in your project.
   .wi-at-l {    width: auto; }
   .wi-i-l {     width: inherit; }
 }
+
 ```
 
 ## Author
