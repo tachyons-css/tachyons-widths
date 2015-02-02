@@ -2,7 +2,7 @@
   "name": "tachyons-widths",
   "version": "1.0.0",
   "style": "tachyons-widths.css",
-  "homepage": "http://mrmrs.io/tachyons-widths",
+  "homepage": "http://github.com/mrmrs/tachyons-widths",
   "description": "Performance based css module.",
   "keywords": [
     "oocss",
