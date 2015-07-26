@@ -2,6 +2,36 @@
 
    WIDTHS
 
+   Base:
+     w = width
+
+   Modifiers
+     1 = 1st step in width scale
+     2 = 2nd step in width scale
+     3 = 3rd step in width scale
+     4 = 4th step in width scale
+     5 = 5th step in width scale
+
+     -10  = literal value 10%
+     -20  = literal value 20%
+     -25  = literal value 25%
+     -33  = literal value 33%
+     -34  = literal value 34%
+     -40  = literal value 40%
+     -50  = literal value 50%
+     -60  = literal value 60%
+     -75  = literal value 75%
+     -80  = literal value 80%
+     -100 = literal value 100%
+
+     -auto  = string value auto
+
+
+   Media Query Extensions:
+     -ns = not-small
+     -m  = medium
+     -l  = large
+
 */
 
 /* Width Scale */
@@ -38,6 +68,14 @@
   width: 25%;
 }
 
+.w-33 {
+  width: 33%;
+}
+
+.w-34 {
+  width: 34%;
+}
+
 .w-40 {
   width: 40%;
 }
@@ -62,47 +100,11 @@
   width: 100%;
 }
 
-/* Width String Properties */
-
-.w-bb {
-  width: border-box;
-}
-
-.w-cb {
-  width: content-box;
-}
-
-.w-mx {
-  width: -webkit-max-content;
-  width: -moz-max-content;
-  width: max-content;
-}
-
-.w-mn {
-  width: -webkit-min-content;
-  width: -moz-min-content;
-  width: min-content;
-}
-
-.w-av {
-  width: available;
-}
-
-.w-fc {
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
-.w-at {
+.w-auto {
   width: auto;
 }
 
-.w-i {
-  width: inherit;
-}
-
-@media screen and (max-width: 48em) {
+@media screen and (min-width: 48em) {
   .w1-ns {
     width: 1rem;
   }
@@ -135,6 +137,14 @@
     width: 25%;
   }
 
+  .w-33-ns {
+    width: 33%;
+  }
+
+  .w-34-ns {
+    width: 34%;
+  }
+
   .w-40-ns {
     width: 40%;
   }
@@ -159,42 +169,8 @@
     width: 100%;
   }
 
-  .w-bb-ns {
-    width: border-box;
-  }
-
-  .w-cb-ns {
-    width: content-box;
-  }
-
-  .w-mx-ns {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
-
-  .w-mn-ns {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-  }
-
-  .w-av-ns {
-    width: available;
-  }
-
-  .w-fc-ns {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .w-at-ns {
+  .w-auto-ns {
     width: auto;
-  }
-
-  .w-i-ns {
-    width: inherit;
   }
 }
 
@@ -231,6 +207,14 @@
     width: 25%;
   }
 
+  .w-33-m {
+    width: 33%;
+  }
+
+  .w-34-m {
+    width: 34%;
+  }
+
   .w-40-m {
     width: 40%;
   }
@@ -255,42 +239,8 @@
     width: 100%;
   }
 
-  .w-bb-m {
-    width: border-box;
-  }
-
-  .w-cb-m {
-    width: content-box;
-  }
-
-  .w-mx-m {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
-
-  .w-mn-m {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-  }
-
-  .w-av-m {
-    width: available;
-  }
-
-  .w-fc-m {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .w-at-m {
+  .w-auto-m {
     width: auto;
-  }
-
-  .w-i-m {
-    width: inherit;
   }
 }
 
@@ -327,6 +277,14 @@
     width: 25%;
   }
 
+  .w-33-l {
+    width: 33%;
+  }
+
+  .w-34-l {
+    width: 34%;
+  }
+
   .w-40-l {
     width: 40%;
   }
@@ -351,41 +309,7 @@
     width: 100%;
   }
 
-  .w-bb-l {
-    width: border-box;
-  }
-
-  .w-cb-l {
-    width: content-box;
-  }
-
-  .w-mx-l {
-    width: -webkit-max-content;
-    width: -moz-max-content;
-    width: max-content;
-  }
-
-  .w-mn-l {
-    width: -webkit-min-content;
-    width: -moz-min-content;
-    width: min-content;
-  }
-
-  .w-av-l {
-    width: available;
-  }
-
-  .w-fc-l {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-  }
-
-  .w-at-l {
+  .w-auto-l {
     width: auto;
-  }
-
-  .w-i-l {
-    width: inherit;
   }
 }
