@@ -1,18 +1,17 @@
 {
   "name": "tachyons-widths",
-  "version": "4.0.0",
-  "style": "tachyons-widths.css",
-  "homepage": "http://github.com/mrmrs/tachyons-widths",
+  "version": "4.0.1",
+  "style": "src/tachyons-widths.css",
   "description": "Performance based css module.",
-  "keywords": [],
-  "repository": {
-    "type": "git",
-    "url": "http://github.com/mrmrs/tachyons-widths.git"
-  },
-  "bugs": {
-    "url": "https://github.com/mrmrs/tachyons-widths/issues",
-    "email": "hi@mrmrs.cc"
-  },
+  "keywords": [
+    "tachyons",
+    "tachyons-css"
+  ],
+  "files": [
+    "src",
+    "css"
+  ],
+  "repository": "tachyons-css/tachyons-widths",
   "author": {
     "name": "mrmrs",
     "email": "hi@mrmrs.cc",
