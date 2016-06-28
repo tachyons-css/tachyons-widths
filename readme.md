@@ -1,4 +1,4 @@
-# tachyons-widths 4.0.1
+# tachyons-widths 4.0.3
 
 Performance based css module.
 
