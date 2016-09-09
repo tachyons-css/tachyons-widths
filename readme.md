@@ -1,10 +1,10 @@
-# tachyons-widths 5.0.0
+# tachyons-widths 5.0.1
 
 Performance based css module.
 
 #### Stats
 
-596 | 68 | 68
+640 | 76 | 76
 ---|---|---
 bytes | selectors | declarations
 
@@ -16,20 +16,10 @@ bytes | selectors | declarations
 npm install --save-dev tachyons-widths
 ```
 
-Learn more about using css installed with npm:
-* https://webpack.github.io/docs/stylesheets.html
-* https://github.com/defunctzombie/npm-css
-
 #### With Git
 
-http:
 ```
 git clone https://github.com/tachyons-css/tachyons-widths
-```
-
-ssh:
-```
-git clone git@github.com:tachyons-css/tachyons-widths.git
 ```
 
 ## Usage
@@ -51,14 +41,6 @@ $ tachyons path/to/css-file.css > dist/t.css
 
 #### Using the CSS
 
-##### CDN
-The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
-
-```
-<link rel="stylesheet" href="http://npmcdn.com/tachyons-widths@5.0.0/css/tachyons-widths.min.css" />
-```
-
-##### Locally
 The built CSS is located in the `css` directory. It contains an unminified and minified version.
 You can either cut and paste that css or link to it directly in your html.
 
@@ -96,6 +78,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
      -40  = literal value 40%
      -50  = literal value 50%
      -60  = literal value 60%
+     -66  = literal value 66%
+     -67  = literal value 67%
      -75  = literal value 75%
      -80  = literal value 80%
      -100 = literal value 100%
@@ -123,6 +107,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .w-40 { width: 40%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
+.w-66 { width: 66%; }
+.w-67 { width: 67%; }
 .w-75 { width: 75%; }
 .w-80 { width: 80%; }
 .w-100 { width: 100%; }
@@ -141,6 +127,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-40-ns { width: 40%; }
  .w-50-ns { width: 50%; }
  .w-60-ns { width: 60%; }
+ .w-66-ns { width: 66%; }
+ .w-67-ns { width: 67%; }
  .w-75-ns { width: 75%; }
  .w-80-ns { width: 80%; }
  .w-100-ns { width: 100%; }
@@ -160,6 +148,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-40-m { width: 40%; }
  .w-50-m { width: 50%; }
  .w-60-m { width: 60%; }
+ .w-66-m { width: 66%; }
+ .w-67-m { width: 67%; }
  .w-75-m { width: 75%; }
  .w-80-m { width: 80%; }
  .w-100-m { width: 100%; }
@@ -179,6 +169,8 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-40-l { width: 40%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
+ .w-66-l { width: 66%; }
+ .w-67-l { width: 67%; }
  .w-75-l { width: 75%; }
  .w-80-l { width: 80%; }
  .w-100-l { width: 100%; }
@@ -201,5 +193,5 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 
 ## License
 
-ISC
+MIT
 
