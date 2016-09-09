@@ -19,6 +19,7 @@
      -40  = literal value 40%
      -50  = literal value 50%
      -60  = literal value 60%
+     -66  = literal value 66.66%
      -75  = literal value 75%
      -80  = literal value 80%
      -90  = literal value 90%
@@ -83,6 +84,7 @@
  .w-40-m { width: 40%; }
  .w-50-m { width: 50%; }
  .w-60-m { width: 60%; }
+ .w-66-m { width: 66.66%; }
  .w-75-m { width: 75%; }
  .w-80-m { width: 80%; }
  .w-90-m { width: 90%; }
@@ -102,6 +104,7 @@
  .w-40-l { width: 40%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
+ .w-66-l { width: 66.66%; }
  .w-75-l { width: 75%; }
  .w-80-l { width: 80%; }
  .w-90-l { width: 90%; }
