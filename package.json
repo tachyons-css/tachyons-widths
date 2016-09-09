@@ -1,6 +1,6 @@
 {
   "name": "tachyons-widths",
-  "version": "4.0.6",
+  "version": "5.0.1",
   "style": "src/tachyons-widths.css",
   "description": "Performance based css module.",
   "keywords": [
@@ -19,7 +19,7 @@
   },
   "license": "ISC",
   "devDependencies": {
-    "tachyons-cli": "^0.6.1",
+    "tachyons-cli": "^1.0.3",
     "watch": "^0.19.1"
   },
   "scripts": {

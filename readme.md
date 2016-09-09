@@ -1,4 +1,4 @@
-# tachyons-widths 4.0.6
+# tachyons-widths 5.0.1
 
 Performance based css module.
 
@@ -113,7 +113,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .w-80 { width: 80%; }
 .w-100 { width: 100%; }
 .w-auto { width: auto; }
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 30em) {
  .w1-ns { width: 1rem; }
  .w2-ns { width: 2rem; }
  .w3-ns { width: 4rem; }
@@ -134,7 +134,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-100-ns { width: 100%; }
  .w-auto-ns { width: auto; }
 }
-@media screen and (min-width: 48em) and (max-width: 64em) {
+@media screen and (min-width: 30em) and (max-width: 60em) {
  .w1-m { width: 1rem; }
  .w2-m { width: 2rem; }
  .w3-m { width: 4rem; }
@@ -155,7 +155,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-100-m { width: 100%; }
  .w-auto-m { width: auto; }
 }
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 60em) {
  .w1-l { width: 1rem; }
  .w2-l { width: 2rem; }
  .w3-l { width: 4rem; }
