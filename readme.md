@@ -1,10 +1,10 @@
-# tachyons-widths 5.0.0
+# tachyons-widths 5.1.0
 
 Performance based css module.
 
 #### Stats
 
-596 | 68 | 68
+762 | 88 | 88
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-widths@5.0.0/css/tachyons-widths.min.css" />
+<link rel="stylesheet" href="http://npmcdn.com/tachyons-widths@5.1.0/css/tachyons-widths.min.css" />
 ```
 
 ##### Locally
@@ -77,6 +77,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 /*
 
    WIDTHS
+   Docs: http://tachyons.io/docs/layout/widths/
 
    Base:
      w = width
@@ -100,6 +101,7 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
      -80  = literal value 80%
      -100 = literal value 100%
 
+     -third = 100% / 3 (Not supported in opera mini or IE8)
      -auto  = string value auto
 
 
@@ -118,14 +120,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
 .w-10 { width: 10%; }
 .w-20 { width: 20%; }
 .w-25 { width: 25%; }
+.w-30 { width: 30%; }
 .w-33 { width: 33%; }
 .w-34 { width: 34%; }
 .w-40 { width: 40%; }
 .w-50 { width: 50%; }
 .w-60 { width: 60%; }
+.w-70 { width: 70%; }
 .w-75 { width: 75%; }
 .w-80 { width: 80%; }
+.w-90 { width: 90%; }
 .w-100 { width: 100%; }
+.w-third { width: calc( 100% / 3 ); }
+.w-two-thirds { width: calc( 100% / 1.5 ); }
 .w-auto { width: auto; }
 @media screen and (min-width: 30em) {
  .w1-ns { width: 1rem; }
@@ -136,14 +143,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-10-ns { width: 10%; }
  .w-20-ns { width: 20%; }
  .w-25-ns { width: 25%; }
+ .w-30-ns { width: 30%; }
  .w-33-ns { width: 33%; }
  .w-34-ns { width: 34%; }
  .w-40-ns { width: 40%; }
  .w-50-ns { width: 50%; }
  .w-60-ns { width: 60%; }
+ .w-70-ns { width: 70%; }
  .w-75-ns { width: 75%; }
  .w-80-ns { width: 80%; }
+ .w-90-ns { width: 90%; }
  .w-100-ns { width: 100%; }
+ .w-third-ns { width: calc( 100% / 3 ); }
+ .w-two-thirds-ns { width: calc( 100% / 1.5 ); }
  .w-auto-ns { width: auto; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
@@ -155,14 +167,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-10-m { width: 10%; }
  .w-20-m { width: 20%; }
  .w-25-m { width: 25%; }
+ .w-30-m { width: 30%; }
  .w-33-m { width: 33%; }
  .w-34-m { width: 34%; }
  .w-40-m { width: 40%; }
  .w-50-m { width: 50%; }
  .w-60-m { width: 60%; }
+ .w-70-m { width: 70%; }
  .w-75-m { width: 75%; }
  .w-80-m { width: 80%; }
+ .w-90-m { width: 90%; }
  .w-100-m { width: 100%; }
+ .w-third-m { width: calc( 100% / 3 ); }
+ .w-two-thirds-m { width: calc( 100% / 1.5 ); }
  .w-auto-m { width: auto; }
 }
 @media screen and (min-width: 60em) {
@@ -174,14 +191,19 @@ Running `$ npm start` will process the source CSS and place the built CSS in the
  .w-10-l { width: 10%; }
  .w-20-l { width: 20%; }
  .w-25-l { width: 25%; }
+ .w-30-l { width: 30%; }
  .w-33-l { width: 33%; }
  .w-34-l { width: 34%; }
  .w-40-l { width: 40%; }
  .w-50-l { width: 50%; }
  .w-60-l { width: 60%; }
+ .w-70-l { width: 70%; }
  .w-75-l { width: 75%; }
  .w-80-l { width: 80%; }
+ .w-90-l { width: 90%; }
  .w-100-l { width: 100%; }
+ .w-third-l { width: calc( 100% / 3 ); }
+ .w-two-thirds-l { width: calc( 100% / 1.5 ); }
  .w-auto-l { width: auto; }
 }
 ```
