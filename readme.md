@@ -1,10 +1,10 @@
-# tachyons-widths 5.2.1
+# tachyons-widths 5.2.2
 
 Performance based css module.
 
-#### Stats
+### Stats
 
-770 | 88 | 88
+773 | 88 | 88
 ---|---|---
 bytes | selectors | declarations
 
@@ -55,7 +55,7 @@ $ tachyons path/to/css-file.css > dist/t.css
 The easiest and most simple way to use the css is to use the cdn hosted version. Include it in the head of your html with:
 
 ```
-<link rel="stylesheet" href="http://unpkg.com/tachyons-widths@5.2.1/css/tachyons-widths.min.css" />
+<link rel="stylesheet" href="http://unpkg.com/tachyons-widths@5.2.2/css/tachyons-widths.min.css" />
 ```
 
 ##### Locally
@@ -132,8 +132,8 @@ Running `$ npm start` will process the source css and place the built css in the
 .w-80 { width: 80%; }
 .w-90 { width: 90%; }
 .w-100 { width: 100%; }
-.w-third { width: calc( 100% / 3 ); }
-.w-two-thirds { width: calc( 100% / 1.5 ); }
+.w-third { width: 33.33333%; }
+.w-two-thirds { width: 66.66667%; }
 .w-auto { width: auto; }
 @media screen and (min-width: 30em) {
  .w1-ns { width: 1rem; }
@@ -155,8 +155,8 @@ Running `$ npm start` will process the source css and place the built css in the
  .w-80-ns { width: 80%; }
  .w-90-ns { width: 90%; }
  .w-100-ns { width: 100%; }
- .w-third-ns { width: calc( 100% / 3 ); }
- .w-two-thirds-ns { width: calc( 100% / 1.5 ); }
+ .w-third-ns { width: 33.33333%; }
+ .w-two-thirds-ns { width: 66.66667%; }
  .w-auto-ns { width: auto; }
 }
 @media screen and (min-width: 30em) and (max-width: 60em) {
@@ -179,8 +179,8 @@ Running `$ npm start` will process the source css and place the built css in the
  .w-80-m { width: 80%; }
  .w-90-m { width: 90%; }
  .w-100-m { width: 100%; }
- .w-third-m { width: calc( 100% / 3 ); }
- .w-two-thirds-m { width: calc( 100% / 1.5 ); }
+ .w-third-m { width: 33.33333%; }
+ .w-two-thirds-m { width: 66.66667%; }
  .w-auto-m { width: auto; }
 }
 @media screen and (min-width: 60em) {
@@ -203,8 +203,8 @@ Running `$ npm start` will process the source css and place the built css in the
  .w-80-l { width: 80%; }
  .w-90-l { width: 90%; }
  .w-100-l { width: 100%; }
- .w-third-l { width: calc( 100% / 3 ); }
- .w-two-thirds-l { width: calc( 100% / 1.5 ); }
+ .w-third-l { width: 33.33333%; }
+ .w-two-thirds-l { width: 66.66667%; }
  .w-auto-l { width: auto; }
 }
 ```
